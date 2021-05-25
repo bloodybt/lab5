@@ -5,11 +5,11 @@
 
 @section('content')
     <br><br><br>
-    <form action="{{ route('order-form') }}}" method="post">
+    <form action="{{ route('order-form') }}" method="post">
         @csrf
         Замовлення столиків<br>
         <input type="text" name="name" placeholder="Ім'я" id="name"><br>
-        <input type="text" name="email" placeholder="Email" id="email"><br>
+        <input type="text" name="phone" placeholder="Мобільний телефон" id="phone"><br>
         <input type="text" name="comments" placeholder="Кількість людей та час" id="comments"><br>
         <button type="submit">Замовити</button>
     </form>

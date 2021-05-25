@@ -18,13 +18,12 @@ Route::get('/contacts', function () {
     return view('contacts');
 })->name('contacts');
 
-Route::get('/contacts/submit', function () {
+Route::get('/reviews', function () {
     return view('reviews');
 })->name('reviews');
 
-Route::post('/reviews', function () {
-    return view('reviews');
-})->name('order-form');
+use App\Http\Controllers\OrderController;
+Route::post('/order/submit', [OrderController::class, 'order'])->name('order-form');
 
 
 
