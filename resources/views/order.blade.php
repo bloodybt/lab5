@@ -5,7 +5,8 @@
 
 @section('content')
     <br><br><br>
-    <form action="order/submit" method="post">
+    <form action="{{ route('order-form') }}}" method="post">
+        @csrf
         Замовлення столиків<br>
         <input type="text" name="name" placeholder="Ім'я" id="name"><br>
         <input type="text" name="email" placeholder="Email" id="email"><br>
