@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87522881-9aa7-4c98-a762-a9125869d618" name="Default Changelist" comment="" />
+    <list default="true" id="87522881-9aa7-4c98-a762-a9125869d618" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/order.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/order.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,8 +156,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621974795108</updated>
-      <workItem from="1621974796903" duration="3869000" />
+      <workItem from="1621974796903" duration="4667000" />
     </task>
+    <task id="LOCAL-00001" summary="Create project, add basic links and templates">
+      <created>1621979117380</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621979117380</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,14 +174,26 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create project, add basic links and templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create project, add basic links and templates" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="424" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621979039490">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="424" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1621979039490" />
+    <state x="521" y="121" key="CommitChangelistDialog2" timestamp="1621979116986">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="521" y="121" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1621979116986" />
     <state x="780" y="467" key="NewPhpFileDialog" timestamp="1621978463552">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="780" y="467" key="NewPhpFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1621978463552" />
+    <state x="560" y="277" key="Vcs.Push.Dialog.v2" timestamp="1621979375637">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1621979375637" />
   </component>
 </project>
